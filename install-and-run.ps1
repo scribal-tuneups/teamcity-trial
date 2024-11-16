@@ -32,3 +32,12 @@ refreshenv
 Write-Output "Install MSVC 2019 C++ Native Desktop workload"
 choco install visualstudio2019-workload-nativedesktop
 refreshenv
+
+# Initialise the VC variables
+"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Auxiliary\\Build\\vcvars64.bat"
+
+# Run CMake
+mkdir build
+cd build/
+cmake ..
+cmake --build .
