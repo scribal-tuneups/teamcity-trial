@@ -43,5 +43,8 @@ cmake ..
 cmake --build .
 
 # Where is everything?
-Get-ChildItem -Path .
+Get-ChildItem -Path . -Recurse
+
+# Run Hello
+& build\Debug\hello.x.exe
 
