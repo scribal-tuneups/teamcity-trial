@@ -4,6 +4,9 @@ cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 # project name and enable C++ support
 project(hello LANGUAGES CXX)
 
+# set build type to release
+set(CMAKE_BUILD_TYPE Release)
+
 # require C++11
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_EXTENSIONS OFF)
