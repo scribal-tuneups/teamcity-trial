@@ -41,3 +41,7 @@ mkdir build
 cd build/
 cmake ..
 cmake --build .
+
+# Where is everything?
+Get-ChildItem -Path .
+
