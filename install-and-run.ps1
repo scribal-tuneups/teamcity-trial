@@ -24,11 +24,3 @@ mkdir build
 cd build/
 cmake ..
 cmake --build .
-
-# Where is everything?
-Get-ChildItem -Path . -Recurse
-
-# Run Hello
-cd debug
-& hello.x.exe
-
