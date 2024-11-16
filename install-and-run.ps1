@@ -29,6 +29,6 @@ cmake --build .
 Get-ChildItem -Path . -Recurse
 
 # Run Hello
-cd build\\debug
+cd debug
 & hello.x.exe
 
